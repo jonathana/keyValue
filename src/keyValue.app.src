@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, keyValue,
+ [
+  {description, "keyValue"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { keyValue_app, []}},
+  {env, []}
+ ]}.
